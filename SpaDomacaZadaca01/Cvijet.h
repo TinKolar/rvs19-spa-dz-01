@@ -8,6 +8,7 @@ class Cvijet
 private:
 	RenderWindow* wind;
 	sf::Vector2u windowSize;
+	sf::Clock clock;
 
 public:
 	Cvijet(RenderWindow* window);
